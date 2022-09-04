@@ -96,6 +96,12 @@ int LeastRowSum(int[,] matrix)
 
 int r=Prompt("enter matrix rows number: ");
 int c=Prompt("enter matrix columns number: ");
+while(r==c)
+{
+   System.Console.WriteLine(" matrix must be rectangular, reenter size: ");
+   r=Prompt("enter matrix rows number: ");
+   c=Prompt("enter matrix columns number: ");
+}
 int range=Prompt("enter matrix value generator range: ");
 int[,] matr=FillMatrix(r,c,range);
 System.Console.WriteLine("Generated matrix is: ");
