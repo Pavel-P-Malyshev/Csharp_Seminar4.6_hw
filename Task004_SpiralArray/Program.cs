@@ -35,7 +35,7 @@ void PrintMatrix(int[,] matrix)
 
 }
 
-//алгоритм позамсствовал здесь:
+//алгоритм позаимствовал здесь:
 //https://www.haikson.com/programmirovanie/zapolnenie-dvumernoj-matritsyi-po-spirali/
 int[,] SpiralArray(int size)
 {
